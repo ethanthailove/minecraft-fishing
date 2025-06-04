@@ -24,57 +24,57 @@ function fishBtnClicked() {
     // Steve Fish Simulator
     let randNum = Math.random();
     if (randNum < 0.7) {
-      resultImg.src = "img/Raw-Cod.png";
+      resultImg.src = "Raw-Cod.png";
       numCod++;
       numCodSpan.innerHTML = numCod;
     } else if (randNum < 0.9) {
-      resultImg.src = "img/Raw-Salmon.png";
+      resultImg.src = "Raw-Salmon.png";
       numSalmon++;
       numSalmonSpan.innerHTML = numSalmon;
     } else if (randNum < 0.95) {
-      resultImg.src = "img/Tropical-Fish.png";
+      resultImg.src = "Tropical-Fish.png";
       numTropical++;
       numTropicalSpan.innerHTML = numTropical;
     } else {
-      resultImg.src = "img/Pufferfish.png";
+      resultImg.src = "Pufferfish.png";
       numPuffer++;
       numPufferSpan.innerHTML = numPuffer;
     }
   } else if (character === "alex") {
     let randNum = Math.random();
     if (randNum < 0.1) {
-      resultImg.src = "img/Raw-Cod.png";
+      resultImg.src = "Raw-Cod.png";
       numCod++;
       numCodSpan.innerHTML = numCod;
     } else if (randNum < 0.2) {
-      resultImg.src = "img/Raw-Salmon.png";
+      resultImg.src = "Raw-Salmon.png";
       numSalmon++;
       numSalmonSpan.innerHTML = numSalmon;
     } else if (randNum < 0.5) {
-      resultImg.src = "img/Tropical-Fish.png";
+      resultImg.src = "Tropical-Fish.png";
       numTropical++;
       numTropicalSpan.innerHTML = numTropical;
     } else {
-      resultImg.src = "img/Pufferfish.png";
+      resultImg.src = "Pufferfish.png";
       numPuffer++;
       numPufferSpan.innerHTML = numPuffer;
     }
   } else if (character === "villager") {
     let randNum = Math.random();
     if (randNum < 0.25) {
-      resultImg.src = "img/Raw-Cod.png";
+      resultImg.src = "Raw-Cod.png";
       numCod++;
       numCodSpan.innerHTML = numCod;
     } else if (randNum < 0.5) {
-      resultImg.src = "img/Raw-Salmon.png";
+      resultImg.src = "Raw-Salmon.png";
       numSalmon++;
       numSalmonSpan.innerHTML = numSalmon;
     } else if (randNum < 0.75) {
-      resultImg.src = "img/Tropical-Fish.png";
+      resultImg.src = "Tropical-Fish.png";
       numTropical++;
       numTropicalSpan.innerHTML = numTropical;
     } else {
-      resultImg.src = "img/Pufferfish.png";
+      resultImg.src = "Pufferfish.png";
       numPuffer++;
       numPufferSpan.innerHTML = numPuffer;
     }
